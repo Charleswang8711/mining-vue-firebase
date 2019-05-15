@@ -1,0 +1,809 @@
+/*   ===  TXP_Web/styles_new.css  ===   */  
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	}
+	
+
+.sections
+{
+font-family: Arial, sans serif;
+}
+
+
+
+	/*  ===  Images  === */	
+
+.imgrelations {
+	border: 0;
+	vertical-align: center;
+	horizontal-align: center;
+	padding-left: 5px;
+	height: 50px;
+	}
+
+/*  .img {   ( Sample code for images, to be customised and used on individual pages)
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}                                    */
+
+
+/*  ===  Headers  === */	
+.tableheader
+{
+/* vertical-align: center;  */
+text-align: right;
+height: 25;
+font-weight: bold;
+font-size: 11px;
+color: black;
+font-family: Arial, sans serif;
+}
+
+.tableheaderblue
+{
+vertical-align: center;
+text-align: right;
+height: 25;
+font-weight: bold;
+font-size: 11px;
+color: darkblue;
+font-family: Arial, sans serif;
+}
+
+
+/*  ===  Misc  === */
+	.Screen_Number   /* Screen Numbers as per 4D Client */
+{
+font-size: 11px;
+font-weight: normal;
+color: darkblue;
+}
+
+.Go_To   /* Goto Drop Menu */
+{
+text-align: center;
+vertical-align: center;
+font-size: 11px;
+font-weight: normal;
+color: darkblue;
+}
+
+.mydate
+{
+width: 50px;
+}
+
+.tablehr   /*   1 pxl line images / tmnavi-line.jpg    */
+	    	/* FYI; tm_navi_filler is used for spacing above the module name for a;; Navi's  */
+{
+width: 100%;
+height:1px;
+}
+
+.hrs   /*  Class assigned to <hr> (horizontal line)  */
+{
+background-color: lightgrey;
+height: 1px;
+border: 0;
+}
+
+.tdtitletitle
+{
+width: 140px;
+overflow: hidden;
+//display: block;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.tdtitledata
+{
+width: 175px;
+text-overflow: ellipsis;
+}
+
+.notediv
+{
+height: 80px;
+border:1px solid black;
+border-color: lightgrey;
+padding: 5px;
+}
+
+.actinotes:hover
+{
+text-decoration: underline;
+}
+
+.IDs
+{
+width: 70px;
+}
+
+.currency
+{
+width: 90px;
+}
+
+.boxes
+{
+width: 20px;
+text-align: center;
+}
+
+.notextwrap
+{
+white-space: nowrap;
+}
+
+/*  ===  Font Sizes  === */	
+
+
+.size9
+{
+font-size: 9px;
+}
+
+.size10
+{
+font-size: 10px;
+}
+
+.size11
+{
+font-size: 11px;
+}
+
+.size12
+{
+font-size: 12px;
+}
+
+.size13
+{
+font-size: 13px;
+}
+
+.size14
+{
+font-size: 14px;
+}
+
+.Pt12Font
+{
+font-size: 14px;
+}
+
+.size16
+{
+font-size: 16px;
+}
+
+.size18
+{
+font-size: 18px;
+}
+
+.size20
+{
+font-size: 20px;
+}
+
+.size22
+{
+font-size: 22px;
+}
+
+.size25
+{
+font-size: 25px;
+}
+
+.size28
+{
+font-size: 28px;
+}
+
+.size30
+{
+font-size: 30px;
+}
+
+.size35
+{
+font-size: 35px;
+}
+
+.size39
+{
+font-size: 39px;
+}
+
+.size40
+{
+font-size: 40px;
+}
+
+.size45
+{
+font-size: 45px;
+}
+
+/*  ===  Line Spacing  === */	
+
+.linespacer15 {
+line-height: 15px;
+}
+
+
+.linespacer20 {
+line-height: 20px;
+}
+
+
+.linespacer25 {
+line-height: 25px;
+}
+
+.linespacer30 {
+line-height: 30px;
+}
+
+.linespacer35 {
+line-height: 35px;
+}
+
+.linespacer40 {
+line-height: 40px;
+}
+
+
+.linespacer50 {
+line-height: 50px;
+}
+
+.linespacer70 {
+line-height: 70px;
+}
+
+
+/*  ===  Alignment  === */	
+
+.spanright
+{
+ float:right;
+}
+
+.spanleft
+{
+ float:left;
+}
+
+
+.alignright
+{
+text-align: right;
+}
+
+.alignleft
+{
+text-align: left;
+}
+
+.aligncenter
+{
+text-align: center;
+}
+
+.alignTop
+{
+valign: top;
+} 
+
+.valigntop
+{
+vertical-align: top;
+}
+
+.valignmiddle
+{
+vertical-align: middle;
+}
+
+.valignbottom
+{
+vertical-align: bottom;
+}
+
+.hangingindent5 {
+  padding-left: 5px ;
+} 
+
+.hangingindent {
+  padding-left: 26px ;
+} 
+
+.hangingindent50 {
+  padding-left: 50px ;
+} 
+
+.PaddingParagraph {
+  padding-bottom: 12px;
+}
+
+
+.PaddingBottom3px {
+  padding-bottom: 3px;
+}
+
+.PaddingParagraph50 {
+  padding-bottom: 50px;
+}
+
+
+
+/*  ===  Styles  === */	
+.makebold
+{
+font-weight: bold;
+}
+
+.makenormal
+{
+font-weight: normal;
+}
+
+.makeitalic
+{
+font-style: italic;
+}
+
+.arial
+{
+font-family: Arial, sans serif;
+}
+
+
+/*   Colours  */
+.makered
+{
+color: red;
+}
+
+.makeblack
+{
+color: black;
+}
+
+.makegrey
+{
+color: grey;
+}
+
+.makegreen
+{
+color: green;
+}
+
+.makeblue
+{
+color: darkblue;
+}
+
+.makedarkblue
+{
+color: #0066cc;
+}
+
+.makedarkblue2
+{
+color: #1a20ca;
+}
+
+.makedarkblue3
+{
+color:  #0000FF  
+ }
+
+.makelightblue
+{
+color: #3399ff;
+}
+
+.makeCadetBlue
+{
+color: CadetBlue;
+}
+
+.makebrown
+{
+color: brown;
+}
+
+.makeindianred
+{
+color:  #b82e2e;
+}
+
+
+.makeorange
+{
+color: #ee6703;
+}
+
+.coloracti
+{
+color: #838383;
+}
+
+.bg_colourYellow
+{
+background-color:   #ffff99;
+}
+
+.mandatoryfield
+{
+border:2px solid #fdccc1;
+}
+
+
+/*   Buttons  */
+.allbuttons
+{
+border-style: solid;
+border-radius: 5px 5px;
+border-color: #F6F6F6;  /* white */
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 9pt;
+background-color: #1F7FB6;  /* blue/Black */
+color: white;
+line-height: 21px;
+}
+
+.subModButtons  /*  Data Entry buttons for sub modules  ie adding Diaries from Contacts  */
+{
+border-style: solid;
+border-radius: 5px 5px;
+border-color: #F6F6F6;    /* white */
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 9pt;
+background-color: #839192 ;
+color: white;
+line-height: 21px;
+}
+
+.redbuttons
+{
+border-style: solid;
+border-radius: 5px 5px;  /* rounded edges */
+border-color: #F6F6F6;   /* white */
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 9pt;
+background-color: #d32828 ;  /* red/Black */
+color: white;
+line-height: 21px;
+}
+
+.ftpButtons  /*  ftp Doc section */
+{
+border-style: solid;
+border-radius: 5px 5px;
+border:4px solid black;  /*  Used border 4 and colour white to give the appearance of space between buttons  */
+border-color: #FAFAFA;    /* white */
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 9pt;
+background-color: #e0eccc ;  /*  olive green   */
+/*  background-color: #E6E6E6;   */
+color: black;
+line-height: 21px;
+}
+
+
+
+.DragButton
+{
+font-size: 12px;
+font-weight: bold;
+background-color:  #e9f7ef ;
+padding: 5px;
+}
+
+.DragButton:hover
+{
+background-color:   #d4efdf  ;
+}
+
+
+.dragButts
+{
+background-color:  #e9f7ef ;
+padding: 6px;
+border:1px solid lightgrey;
+}
+
+.dragButts:hover
+{
+background-color:   #d4efdf  ;
+}
+
+
+
+/*  ===  Pick Lists  === */	
+
+.smallselects
+{
+width:100px; 
+}
+
+.smallselectsV4
+{
+width:130px; 
+}
+
+.smallselectsV2
+{
+width:150px; 
+}
+
+.smallselectsV3
+{
+width:200px; 
+}
+
+
+.redbar
+{
+vertical-align:middle;
+width: 3px;
+height: 21px;
+}
+
+
+/*  .....................Define all tables.....................  */
+
+.TitledataTable
+{
+border:0px solid black;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+border:0px solid black;   
+width: 810px;                 /*  Added 28 Nov 17 WPS   */
+}
+
+.TitledataTable td
+{
+border:0px solid black;
+vertical-align: middle;
+white-space:nowrap;
+}
+
+.dataTable
+{
+table-layout:auto;
+border:0px solid black;
+width: 810px;                 /*  Change from 800px 28 Nov 17 WPS   */
+margin-left: auto;
+margin-right: auto;
+}
+
+.dataTable td
+{
+//width: 100%;
+border:0px solid black;
+vertical-align: middle;
+white-space:nowrap;
+padding: 5px;
+}
+
+.oneLineTable
+{
+//table-layout:auto;
+border:0px solid black;
+width: 810px;                 /*  Changed from 800px 28 Nov 17 WPS   */
+margin-left: auto;
+margin-right: auto;
+}
+
+.oneLineTableWithBorder
+{
+//table-layout:auto;
+border:1px solid black;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.oneLineTable td
+{
+//width: 100%;
+border:0px solid black;
+//vertical-align: middle;
+//white-space:nowrap;
+padding: 5px;
+}
+
+
+/*  .....................Define by color tables.....................  */
+
+.bycolor
+{
+width: 800px;
+table-layout: fixed;
+border:1px solid black;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bycolor th
+{
+font-size: 11px;
+font-weight:bold;
+border-bottom: 1px solid black;
+background-color: #DADADA;
+}
+
+.bycolor td
+{
+font-size: 11px;
+font-weight:normal;
+border-bottom: 1px dotted black;
+word-break:break-all;
+}
+
+.bycolor th,td
+{
+padding: 1px;
+}
+
+.bycolor thead
+{
+display: block;
+color: #000000;
+}
+  
+.bycolor tbody 
+{
+display: block;
+overflow: auto; 
+height: 100px;
+}
+
+.bycolor tbody tr:nth-child(even)
+{
+background-color: #ffffe0;
+}
+
+.bycolor tbody tr:nth-child(odd)
+{
+background-color: #e6e6fa;
+}
+
+/*  ..........................  */
+
+.subtable
+{
+width: 884px;
+table-layout: fixed;
+border:1px solid #F5F5F5;
+margin-left: 159px;
+margin-right: auto;
+}
+
+.subtable td
+{
+font-size: 11px;
+font-weight:normal;
+border-bottom: 1px dotted #F5F5F5;
+word-break:break-all;
+background-color: #ffffe0 ;
+}
+
+
+/*  .....................Define tables for listings.....................  */
+
+.topbar100
+{
+width: 1050px;
+table-layout: fixed;
+border:0px solid black;
+}
+
+/*  ..........................  */
+
+.bycolor100
+{
+width: 1050px;
+table-layout: fixed;
+border:0px solid black;
+}
+
+.bycolor100 th
+{
+color: black;
+background-color: #E6E6E6;
+font-size: 11px;
+}
+
+.bycolor100 td
+{
+font-size: 11px;
+border-bottom: 1px dotted black;
+word-break:break-all;
+}
+
+.bycolor100 tbody tr:nth-child(even)
+{
+background-color: #ffffe0;
+}
+
+.bycolor100 tbody tr:nth-child(odd)
+{
+background-color: #e6e6fa;
+}
+
+/*  ..........................  */
+
+.bycolor200   /*  used by Rosters   */
+{
+width: 1050px;
+table-layout: fixed;
+border:0px solid black;
+}
+
+.bycolor200 th
+{
+color: black;
+background-color: #E6E6E6;
+font-size: 11px;
+}
+
+.bycolor200 td
+{
+font-size: 11px;
+border-bottom: 0px dotted black; /*  had to remove this because of getting a 2nd dotted line under date/time
+/*  word-break:break-all;  */
+}
+
+.bycolor200 tbody tr:nth-child(even)
+{
+background-color: #F8F8F8;   /*   very light grey    */
+}
+
+.bycolor200 tbody tr:nth-child(odd)
+{
+background-color: #ffffe0;   /*   yellow grey    */
+}
+
+/*  ..........................  */
+
+
+
+.quote_Incl
+{
+border:0px solid black;
+width: 100%;
+background-color: transparent;
+}
+
+.quote_Incl td
+{
+border-bottom: 0px dotted black;
+}
+
+.bycolor100 tr .quote_Incl tr
+{
+background-color: transparent;
+}
